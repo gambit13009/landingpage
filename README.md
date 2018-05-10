@@ -34,7 +34,7 @@ Pour ce Jeudi 10 Mai 2018 dans le cadre de l'approfondissement de Ruby on Rails,
 
 Notre cahier des charges :
 
-1. Proposer 1 versions de la landing page THP
+1. Proposer 1 version de la landing page THP
 2. Favoriser le CTA (call to Action)
 3. Créer une esthétique et un design authentique
 4. Design dynamique
@@ -43,7 +43,7 @@ Notre cahier des charges :
         ◦ D'analyse de visites via Google Analytics
         ◦ De gestion des Newsletter via MailChimp
 7.  Lier cette landing page à des outils d’acquisition
-        ◦ Boot Twitter
+        ◦ Bot Twitter
         ◦ Scrapping
         ◦ ID de génie
 8. Favoriser le CTA call to Action
@@ -144,7 +144,7 @@ Aller sur les liens Heroku suivants
 
 # Résultats
 
-Avous de voir ;)
+A vous de voir ;)
 
 
 Merci pour la correction ! 
