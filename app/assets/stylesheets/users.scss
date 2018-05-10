@@ -14,12 +14,21 @@ body {
 	background-size: 100%;
 }
 
-#mc_embed_signup form {
-    text-align: center;
-    padding-top: 400px!important;
+#mc_embed_signup {
+    width: 100%;
+    padding-top: 400px;
     
 }
-#mc_embed_signup_scroll > label:nth-child(1) {
-		width: 900px!important;
+
+#mc_embed_signup_scroll {
+		width: 900px;
 
 }
+
+.video-container{
+		
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            
+            }
