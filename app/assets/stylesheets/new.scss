@@ -1,4 +1,9 @@
+body {
 
+  background-image: image-url('fond.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
   body {
       font: 10px Montserrat, sans-serif;
       line-height: 1.8;
@@ -37,5 +42,10 @@
   }
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
+  }
+
+  #mc_embed_signup_scroll {
+
+  color: yellowgreen;
   }
  
