@@ -9,48 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  body {
-      font: 10px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-       /* Green */
-     
-  }
-  .bg-2 { 
-      background-color: #FEE1A3; /* Dark Blue */
-      color: #474e5d;
-  }
-  .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
-  </style>
 </head>
+
 <body>
 
 
@@ -60,7 +20,7 @@
   
   <h3></h3>
 </div>
-
+<%= favicon_link_tag "favicon.ico"%>
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
   <h3 class="margin">The Hacking Project</h3>
@@ -86,22 +46,22 @@
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Apprendre en Peer learning</h3><br>
+  <h3 class="margin">Apprendre en Peer learning !</h3><br>
   <div class="row">
     <div class="col-sm-4">
-    	<p>Travailler en équipe</p>
-      <p>The Hacking Project est une jeune pousse qui souhaite apporter à tous les compétences necessaires pour le monde de demain. Nos formations se déroulent du lundi au vendredi de 9h à 20h pendant 2 mois 1/2. Chez nous, pas de professeurs, pas de cool.</p>
+    	<p><strong>Travailler en équipe</strong></p>
+      <p>The Hacking Project est une jeune pousse qui souhaite apporter à tous les compétences necessaires pour le monde de demain. Nos formations se déroulent du lundi au vendredi de 9h à 20h pendant 2 mois 1/2. Chez nous, pas de professeurs, tout est cool.</p>
       <img src= <%= asset_path 'coworking.png' %>  class="img-responsive margin" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4"> 
 
-    	<p>Des endroits super cool</p>
-      <p>The Hacking Project est une jeune pousse qui souhaite apporter à tous les compétences necessaires pour le monde de demain. Nos formations se déroulent du lundi au vendredi de 9h à 20h pendant 2 mois 1/2. Chez nous, pas de professeurs, pas de locaux.</p>
+    	<p><strong>Des endroits super cool</strong></p>
+      <p>The Hacking Project est une jeune pousse qui souhaite apporter à tous les compétences necessaires pour le monde de demain. Nos formations se déroulent du lundi au vendredi de 9h à 20h pendant 2 mois 1/2. Chez nous, pas de professeurs, choisissez vos locaux.</p>
       <img src= <%= asset_path 'cowork.png' %>  class="img-responsive margin" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4"> 
-    	<p>En seulement 3 mois</p>
-      <p>The Hacking Project est une jeune pousse qui souhaite apporter à tous les compétences necessaires pour le monde de demain. Nos formations se déroulent du lundi au vendredi de 9h à 20h pendant 2 mois 1/2. Chez nous, pas de professeurs, pas de rapide.</p>
+    	<p><strong>En seulement 3 mois</strong></p>
+      <p>The Hacking Project est une jeune pousse qui souhaite apporter à tous les compétences necessaires pour le monde de demain. Nos formations se déroulent du lundi au vendredi de 9h à 20h pendant 2 mois 1/2. Chez nous, pas de soucis, apprentissage rapide.</p>
       <img src=  <%= asset_path 'horloge.png' %> class="img-responsive margin" style="width:100%" alt="Image">
     </div>
   </div>
