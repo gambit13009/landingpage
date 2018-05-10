@@ -124,6 +124,8 @@ Aller sur les liens Heroku suivants
         c. Sur mailchimp.com paramétrer avec le site heroku  
     5. Ajout de Boostrap
         a. Insertion des liens boostrap (du CDN) dans application html  
+    6. Envoi de requetes sur Twitter à l'aide d'un bot
+	a. Compte Twitter : https://twitter.com/hackingproject_?lang=en
 
 -------------  choix des éléments -------------
 
@@ -143,6 +145,8 @@ Aller sur les liens Heroku suivants
 
 
 # Résultats
+
+Réception de 500 mails grâce au bot Twitter.
 
 A vous de voir ;)
 
